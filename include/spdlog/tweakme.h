@@ -89,8 +89,10 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Uncomment to customize level names (e.g. "MT TRACE")
 //
-// #define SPDLOG_LEVEL_NAMES { "MY TRACE", "MY DEBUG", "MY INFO", "MY WARNING",
-// "MY ERROR", "MY CRITICAL", "OFF" }
+#define SPDLOG_LEVEL_NAMES                                                                                                                 \
+    {                                                                                                                                      \
+        "TRAC", "DEBG", "INFO", "WARN", "ERRO", "CRIT", "OFF"                                                                              \
+    }
 ///////////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////
